@@ -1,0 +1,24 @@
+
+{% extends "base.html" %}
+    {% block content %}
+        <h2 class ="list"> List </h2 >
+        <p class="text-center"><a href="{% url 'new' %}"><button class="btn-primary">리뷰작성</button></a></p>
+        <div class="row">
+            {% for post in posts %}
+            <div class="books">
+                <div class="single-blog">
+                    {% if post.image %}
+                        <img src="{{ post.image.url }}">
+                    {% endif %}
+                    <h2><a href="{% url 'detail' post.pk %}">{{ post.title }}</a></h2>
+                    <p class="blog-text">{{ post.contents }}</p>
+                    <p><a href="{% url 'detail' post.pk %}" class="read">내용 보기</a>
+                    </p>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    
+   
+    {% endblock %}    
+

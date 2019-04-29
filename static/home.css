@@ -1,0 +1,49 @@
+body{
+    background-image: url('https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1519654059000/photosp/fb08f9c0-4d88-4108-b2a1-ce1738a114ee/stock-photo-wall-brick-brick-wall-white-background-white-bricks-walls-brickwall-white-bricks-fb08f9c0-4d88-4108-b2a1-ce1738a114ee.jpg');
+    background-size: cover;
+    margin: 30px;
+}
+
+.container{
+    text-align: center;
+    justify-content: center
+}
+
+p{font-family: Verdana, Geneva, Tahoma, sans-serif ;}
+
+.title{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.list{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.single-blog{
+    padding: 10px;
+    margin-top: 30px;
+    background: wheat;
+}
+
+.single-blog img{
+    width: 100%;
+    height: 400px;
+}
+
+.blog-text{
+    font-size: 20x;
+    text-align: center;
+}
+
+.read{
+    background-color: tomato;
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color : wheat;
+    border: none;
+}
