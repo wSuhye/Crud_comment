@@ -13,7 +13,7 @@ class Post(models.Model):
     review = models.TextField(default="")
     price = models.CharField(max_length=50, default= "")
     score = models.CharField(max_length = 1, choices = RATING, default= "")    
-    
+    img = models.FileField(null=True)
     def __str__(self):
         return self.title
 

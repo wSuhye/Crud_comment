@@ -4,6 +4,11 @@
 
 <body>
     <h2>제목 : {{ post.title }}</h2>
+    {% if post.img %}
+        <img src="{{ post.img.url }}">
+    {% endif %}
+                    
+  
     <h5>리뷰 : {{ post.review }}</h5>
     <h5>가격 : {{ post.price }}</h5>
     <h5>점수 : {{ post.score }}</h5>

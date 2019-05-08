@@ -4,7 +4,8 @@
 </head>
 <body>
     <h1>새로운 책리뷰 !</h1>
-    <form method = "POST">{% csrf_token %}
+    <form method = "POST" enctype='multipart/form-data'>
+        {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">제출 !</button>
     </form>

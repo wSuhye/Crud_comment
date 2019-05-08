@@ -1,0 +1,7 @@
+{
+    "AWS" : {
+        "ACCESS_KEY_ID" : "AKIAJHQO2HSUGA3A6CHQ",
+        "SECRET_ACCESS_KEY" : "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",
+        "STORAGE_BUCKET_NAME" : "suhye-file-upload-bucket"
+    }
+}
